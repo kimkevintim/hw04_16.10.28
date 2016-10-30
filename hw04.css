@@ -1,0 +1,115 @@
+div:not(.row){
+    padding: 2%;
+    margin: 0.5%;
+    float: left;
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    
+}
+
+*{box-sizing: border-box}
+
+.header{
+    width:99%;
+    height: 70px;
+    background: lightblue;
+    line-height: 35px;
+}
+
+.nav{
+    background: yellow;
+    height: 50px;
+    width: 99%;
+    line-height: px;
+}
+
+.sidebar{
+    background: darkblue;
+    width: 24%;
+    height: 300px;
+    line-height: 300px;
+}
+
+.main{
+    background: lightgreen;
+    width: 74%;
+    height: 300px;
+    line-height: 300px;
+}
+
+.footer{
+    height: 70px;
+    background: orange;
+    width: 99%;
+    line-height: 35px;
+}
+
+.row{
+    clear:left;
+}
+
+
+
+.up>li{
+    display: inline-block;
+    position: relative;
+    border: 2px solid #ddd;
+    border-right: 0;
+    padding: .3em .5em;
+    margin-left: -5px;
+    width: 20%;
+    cursor: pointer;
+}
+
+.up>li:last-child{
+    border-right: 2px solid #ddd;
+}
+
+.submenu{
+    width: 100%;
+    padding: 0px;
+    position: absolute;
+    top: 100%;
+    left: -1px;
+    background: #ddd;
+    list-style-type: none;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    display: none
+}
+
+.submenu>li{
+    padding: .3em .5em;
+}
+
+.up>li:hover .submenu{
+    display: block;
+    
+}
+
+.submenu li:hover{
+    background: white;
+    color: gray;
+}
+
+.ball{
+    width: 50px;
+    height: 50px;
+    background: darkred;
+    color: white;
+    border-radius: 50px;
+    position: fixed;
+    top: 85%;
+    left: 90%;
+    vertical-align: center;
+    text-align: center;
+    
+}
+
+/* .test{
+    width: 20px; 
+    margin: 50vh auto 0;
+    transform: translatedY(-50%);
+} */

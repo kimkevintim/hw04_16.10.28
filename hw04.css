@@ -103,7 +103,7 @@ div:not(.row){
     position: fixed;
     top: 85%;
     left: 90%;
-    vertical-align: center;
+    line-height: 50px;
     text-align: center;
     
 }
